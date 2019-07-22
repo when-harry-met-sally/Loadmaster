@@ -1,1 +1,1 @@
-insert into shipment (name) values ('THIS IS WORKING');
+insert into shipment (name, luggage) values ('THIS IS WORKING', null);

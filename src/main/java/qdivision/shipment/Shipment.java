@@ -5,6 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+
 @Data
 @Builder(toBuilder = true)
 @NoArgsConstructor
@@ -12,4 +13,5 @@ import lombok.NoArgsConstructor;
 public class Shipment {
     private Long id;
     private String name;
+    //private List<Cargo> luggage;
 }

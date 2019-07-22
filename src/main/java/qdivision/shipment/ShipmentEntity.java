@@ -1,7 +1,6 @@
 package qdivision.shipment;
 
 import lombok.*;
-
 import javax.persistence.*;
 
 @Entity
@@ -19,4 +18,5 @@ public class ShipmentEntity {
     @EqualsAndHashCode.Include
     private Long id;
     private String name;
+    //private List<Cargo> luggage;
 }
