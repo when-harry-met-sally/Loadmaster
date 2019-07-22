@@ -1,1 +1,1 @@
-insert into cargo (name) values ('THIS IS WORKING');
+insert into shipment (name) values ('THIS IS WORKING');

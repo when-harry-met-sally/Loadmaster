@@ -1,4 +1,4 @@
-create table cargo (
+create table shipment (
   id serial primary key,
   name varchar not null
 );
